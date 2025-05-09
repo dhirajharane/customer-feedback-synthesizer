@@ -1,0 +1,43 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+mynewenv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Streamlit-specific ignores
+.streamlit/
+
+# Cache and temporary files
+*.log
+*.cache
+*.DS_Store
+*.tmp
+
+# Dependency directories
+node_modules/
+
+# IDE-specific ignores
+.vscode/
+.idea/
+
+# Data files
+*.csv
+*.json
+
+# Generated reports
+*.pdf
+
+# WebDriver cache
+*.wdm/
