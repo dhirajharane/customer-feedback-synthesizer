@@ -1,117 +1,162 @@
-Customer Feedback Synthesizer for Retail 📊
 
-A powerful tool to analyze customer feedback, generate insights, and create stunning reports for retail businesses.
+# 🛍️ Customer Feedback Synthesizer for Retail 📊
 
-🚀 Overview
-The Customer Feedback Synthesizer for Retail is a Streamlit-based application designed to help retail businesses analyze customer feedback efficiently. It processes feedback data, performs sentiment analysis, extracts themes, generates actionable insights, and produces professional PDF reports with visualizations like charts and word clouds.
-Key Features
+A powerful AI-driven tool to **analyze customer feedback**, generate actionable insights, and create **professional reports** for retail businesses.
 
-Sentiment Analysis: Analyze feedback to determine positive, negative, or neutral sentiments.
-Theme Extraction: Identify recurring themes (e.g., service, product, store) using NLP.
-Interactive Dashboard: Visualize data through donut charts, line charts, bar charts, histograms, scatter plots, and sunburst charts.
-Word Clouds: Highlight key themes with positive and negative feedback word clouds.
-Actionable Insights: Generate recommendations using the Grok API.
-Professional Reports: Create stunning PDF reports with charts, insights, and customer personas.
+---
 
+## 🚀 Overview
 
-🛠️ Installation
-Follow these steps to set up the project locally:
-Prerequisites
+The **Customer Feedback Synthesizer for Retail** is a **Streamlit-based web application** that enables retail businesses to:
 
-Python 3.8+
-Git
-A Grok API key (from xAI)
+- Efficiently **analyze customer feedback**.
+- Perform **sentiment analysis** & **theme extraction** using NLP.
+- Generate **AI-powered recommendations**.
+- Create **stunning PDF reports** featuring charts, word clouds, and more.
 
-Steps
+---
 
-Clone the Repository:
-git clone https://github.com/your-username/customer-feedback-synthesizer.git
-cd customer-feedback-synthesizer
+## ✨ Key Features
 
+- 🔍 **Sentiment Analysis**  
+  Classifies feedback as Positive, Negative, or Neutral using NLP models.
 
-Create a Virtual Environment:
-python -m venv mynewenv
-source mynewenv/bin/activate  # On Windows: mynewenv\Scripts\activate
+- 🧠 **Theme Extraction**  
+  Detects recurring themes like *Service*, *Product*, *Delivery*, etc.
 
+- 📊 **Interactive Dashboard**  
+  Visualize data with:
+  - Donut Charts
+  - Line & Bar Charts
+  - Histograms
+  - Scatter Plots
+  - Sunburst Diagrams
 
-Install Dependencies:
-pip install -r requirements.txt
+- ☁️ **Word Clouds**  
+  Highlights prominent words from both positive & negative feedback.
 
+- 🤖 **Actionable Insights**  
+  Uses **Grok API** to suggest meaningful, data-backed business improvements.
 
-Set Up Environment Variables:Create a .env file in the project root and add your Grok API key:
-GROQ_API_KEY=your_grok_api_key
+- 📝 **Professional PDF Reports**  
+  Automatically generate and download comprehensive reports featuring:
+  - Visual analytics
+  - Insights
+  - Customer personas
 
+---
 
+## 🛠️ Installation
 
+### ✅ Prerequisites
+- Python **3.8+**
+- Git
+- Grok API key (from [xAI](https://x.ai/))
 
-📖 Usage
+### 📦 Setup Steps
 
-Run the Application:
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/dhirajharane/customer-feedback-synthesizer.git
+   cd customer-feedback-synthesizer
+   ```
+
+2. **Create a Virtual Environment**
+   ```bash
+   python -m venv mynewenv
+   source mynewenv/bin/activate  # On Windows: mynewenv\Scripts\activate
+   ```
+
+3. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Set Environment Variables**  
+   Create a `.env` file in the root directory:
+   ```env
+   GROQ_API_KEY=your_grok_api_key
+   ```
+
+---
+
+## ▶️ Usage
+
+### 🖥️ Run the App
+```bash
 streamlit run app.py
+```
 
+### 🌐 Access the Dashboard
+Open your browser and go to:  
+👉 `http://localhost:8501`
 
-Access the Dashboard:Open your browser and go to http://localhost:8501.
-
-Upload Feedback Data:
-
-Upload a CSV file with feedback and date columns.
-Use filters to select date ranges, sentiments, and themes.
-
-
-Explore Insights:
-
-View sentiment trends, theme distributions, and word clouds.
-Ask custom questions about the feedback data.
-Generate and download a professional PDF report.
-
-
-
-Sample Data Format
-Your CSV file should look like this:
+### 📁 Upload Feedback Data
+Upload a `.csv` file with `feedback` and `date` columns:
+```csv
 feedback,date
 "Love the product, fast delivery!",2024-01-15
 "Poor packaging, item damaged.",2024-02-10
+```
 
+### 🔎 Explore Insights
+- Use filters for date range, sentiment, and themes.
+- Ask questions about the data.
+- Generate and download a full **PDF report**.
 
-📸 Screenshots
-Dashboard Overview
+---
 
-Generated Report
+## 📸 Screenshots
 
+### 🎛️ Dashboard Overview
+*Insert screenshot image here*
 
-📑 Report Features
-The generated PDF report is professional and visually stunning, including:
+### 🧾 Generated Report
+*Insert report sample preview image here*
 
-Cover Page: Project title, team details, and date.
-Table of Contents: Easy navigation with page numbers.
-Sentiment Analysis: Visualizations like donut charts, line charts, and sunburst charts.
-Word Clouds: Side-by-side comparison of positive and negative feedback.
-Themes and Keywords: Extracted themes with associated keywords.
-Actionable Insights: Highlighted recommendations in callout boxes.
-Customer Personas: Fictional personas representing typical customers.
-Before & After Impact: Visualizing the impact of implementing insights.
-Feedback Samples: Tabulated positive and negative feedback.
+---
 
+## 📑 Report Features
 
-🧑‍💻 Contributing
-We welcome contributions! Here's how to get started:
+The generated PDF report includes:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Make your changes and commit (git commit -m "Add your feature").
-Push to your branch (git push origin feature/your-feature).
-Open a Pull Request.
+- 📄 **Cover Page**: Title, team, date  
+- 🧭 **Table of Contents**: With page numbers  
+- 💬 **Sentiment Visualizations**: Donut, line, sunburst charts  
+- ☁️ **Word Clouds**: Positive & negative side-by-side  
+- 🧵 **Themes**: Highlighted with keywords  
+- 📌 **Insights**: AI-generated action items in callouts  
+- 👥 **Customer Personas**: Fictional customer types  
+- 🔁 **Before & After**: Business impact visualizations  
+- 🗂️ **Feedback Samples**: Tabulated sentiment examples  
 
+---
 
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 🧑‍💻 Contributing
 
-👥 Team
+We welcome contributions! 🙌
 
-Your Name - Lead Analyst
-John Doe - Data Scientist
-Jane Smith - UX Designer
+1. Fork the repo  
+2. Create your feature branch:  
+   `git checkout -b feature/your-feature`  
+3. Commit your changes:  
+   `git commit -m "Add your feature"`  
+4. Push to GitHub:  
+   `git push origin feature/your-feature`  
+5. Open a Pull Request 🚀
 
-For questions or support, contact us at your-email@example.com.
+---
 
-Built with ❤️ using Streamlit, Plotly, and ReportLab.
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See the [`LICENSE`](./LICENSE) file for details.
+
+---
+
+## ❤️ Built With
+
+- [Streamlit](https://streamlit.io/)
+- [Plotly](https://plotly.com/)
+- [ReportLab](https://www.reportlab.com/)
+- [Grok API](https://x.ai/)
